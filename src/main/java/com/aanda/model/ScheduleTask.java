@@ -37,8 +37,4 @@ public class ScheduleTask {
     private Long createTime;
 
     private Long modifyTime;
-
-    public static String getTableName(String taskType, Integer idx) {
-        return "task_" + taskType.toLowerCase() + "_" + idx;
-    }
 }
